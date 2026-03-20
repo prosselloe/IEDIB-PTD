@@ -1,0 +1,63 @@
+float longitud;  
+
+/* Declaram una variable (reservam espai de memòria per emmagatzemar un float 32 bits amb nom longitud, sense inicialitzar. */
+
+char Inicial = ‘a’;    
+
+/* Declaram una variable de tipus char (16 bits) amb nom Inicial i més a més li assignam un valor, concretament el caràcter ‘a’. Els literals dels caràcters van entre cometes simples. */  
+
+longitud = 3.12;
+
+// Assignam el valor 3,12 a la variable longitud declarada anteriorment  
+
+int[] distancies;
+// Aquí declaram un array amb nom distancies.
+
+int[] distancies2 = new int[4];
+ /* Aquí declaram un array amb nom distancies2 i a més a més estem indicant el nombre d’elements que podrem emmagatzemar, 4. */
+
+int[] distancies3 = {3,3000, 3000, 1, 0, -3}
+// Hem declarat un array de 6 enters (32 bits) inicialitzats amb els elements que van entre els {}, cada element està separat per la ,  
+
+float longitud = 34.3;
+
+int resultat = (int) 2* (longitud + 2*longitud);  
+
+if (distancies[3]>100) {
+   	major = true;
+}
+else { 
+	major = false;
+}
+/* El que fa aquesta instrucció és avaluar l’element 3 del array, que val 1, si és major que 100, com que 1 no és major que 100 s’executa el bloc de l’else que el que farà és assignar a la variable boolena major el valor fals. */  
+
+String descripcio;
+
+	tip =’S’;
+	switch (tip){
+	case ‘A’: 
+		descripcio = “Aventures”;
+		break;
+	case ‘R’:
+		descripcio = “Romantic”;
+		break;
+	case ‘I’:
+		descripcio = “Infantil”;
+		break;
+	default:
+		descripcio = “Tipologia inexistent”;
+	}
+
+char[] llibres= {‘D’, ‘E’, ‘L’, ‘R’, ‘r’};
+boolean trobat = false;
+byte index = 0;
+while (!trobat && index <5) {
+
+ 	if (llibres[index]== ‘R’)
+		trobat = true;
+	index = index + 1;
+}
+
+if (trobat)
+	System.out.println(“Tenim llibres del tipus Romàntic”);  
+
