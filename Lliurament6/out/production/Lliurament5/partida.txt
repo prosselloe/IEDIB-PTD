@@ -1,0 +1,4 @@
+Raul Foguer;ESP;1.765;67.5;10/07/1971
+Guillem Salvà;ESP;1.4;25;19/07/2014
+Lluis Salvà;ESP;1.3;25;23/04/2019
+Cris Salvà;ESP;1.65;25;03/09/1971
